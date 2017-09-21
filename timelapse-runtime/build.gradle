@@ -8,6 +8,8 @@ apply plugin: 'com.github.dcendents.android-maven'
 dependencies {
   compile 'org.aspectj:aspectjrt:1.8.6'
   compile project(':timelapse-annotations')
+  compile 'org.nanohttpd:nanohttpd:2.3.1'
+
   testCompile 'junit:junit:4.12'
 }
 
